@@ -14,6 +14,7 @@ import FlatListWithCustomComponent from './Components/FlatListWithCustomComponen
 import SectionListComponent from './Components/SectionLinkComponent';
 import ClassComponent from './Components/Classes/ClassComponent';
 import ClassWithPropStateComponent from './Components/Classes/ClassWithPropStateComponent';
+import UseEffectComponent from './Components/UseEffectComponent';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -69,8 +70,11 @@ function App(): React.JSX.Element {
       {/* <Section title="First Class Component">
           <ClassComponent />
         </Section> */}
-      <Section title="Class With Prop State Component">
+      {/* <Section title="Class With Prop State Component">
         <ClassWithPropStateComponent />
+      </Section> */}
+      <Section title="Use Effect Hook">
+        <UseEffectComponent />
       </Section>
     </>
   );

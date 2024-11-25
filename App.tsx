@@ -18,6 +18,7 @@ import UseEffectComponent from './Components/UseEffectComponent';
 import ShowHideComponent from './Components/ShowHideComponent';
 import ResponsiveDesignComponent from './Components/ResponsiveDesignComponent';
 import ButtonsComponent from './Components/ButtonsComponent';
+import RadioButtonComponent from './Components/RadioButtonComponent';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -83,9 +84,11 @@ function App(): React.JSX.Element {
         <ShowHideComponent />
       </Section> */}
       {/* <ResponsiveDesignComponent /> */}
-      <Section title="Buttons Component">
+      {/* <Section title="Buttons Component">
         <ButtonsComponent />
-      </Section>
+      </Section> */}
+      <Section title="Radio Button Component"></Section>
+      <RadioButtonComponent />
     </>
   );
 }

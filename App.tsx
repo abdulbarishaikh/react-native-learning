@@ -19,6 +19,7 @@ import ShowHideComponent from './Components/ShowHideComponent';
 import ResponsiveDesignComponent from './Components/ResponsiveDesignComponent';
 import ButtonsComponent from './Components/ButtonsComponent';
 import RadioButtonComponent from './Components/RadioButtonComponent';
+import DynamicRadioButtonComponent from './Components/DynamicRadioButtonComponent';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -83,15 +84,18 @@ function App(): React.JSX.Element {
       {/* <Section title="Show Hide Component">
         <ShowHideComponent />
       </Section> */}
-      <Section title="ResponsiveDesign Component">
+      {/* <Section title="ResponsiveDesign Component">
         <ResponsiveDesignComponent />
-      </Section>
+      </Section> */}
       {/* <Section title="Buttons Component">
         <ButtonsComponent />
       </Section> */}
       {/* <Section title="Radio Button Component">
         <RadioButtonComponent />
       </Section> */}
+      <Section title="Dynamic Radio Button Component">
+        <DynamicRadioButtonComponent />
+      </Section>
     </>
   );
 }

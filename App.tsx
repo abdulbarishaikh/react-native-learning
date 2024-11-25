@@ -25,7 +25,7 @@ type SectionProps = PropsWithChildren<{
 }>;
 function Section({children, title}: SectionProps): React.JSX.Element {
   return (
-    <View style={{marginBottom: 10}}>
+    <View style={{marginBottom: 10, flex: 1}}>
       <Text
         style={{fontSize: 30, marginTop: 20, marginLeft: 20, color: '#17a2b8'}}>
         {title}
@@ -83,12 +83,15 @@ function App(): React.JSX.Element {
       {/* <Section title="Show Hide Component">
         <ShowHideComponent />
       </Section> */}
-      {/* <ResponsiveDesignComponent /> */}
+      <Section title="ResponsiveDesign Component">
+        <ResponsiveDesignComponent />
+      </Section>
       {/* <Section title="Buttons Component">
         <ButtonsComponent />
       </Section> */}
-      <Section title="Radio Button Component"></Section>
-      <RadioButtonComponent />
+      {/* <Section title="Radio Button Component">
+        <RadioButtonComponent />
+      </Section> */}
     </>
   );
 }

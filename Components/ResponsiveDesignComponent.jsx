@@ -59,8 +59,8 @@ const styles = StyleSheet.create({
       margin: 'auto',
       borderColor: 'blue',
       borderWidth: 8,
-      borderRadius: 150,
-      padding: 110,
+      borderRadius: 140,
+      padding: 102,
     },
   },
   box3: {

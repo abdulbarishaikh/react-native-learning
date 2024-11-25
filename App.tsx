@@ -16,6 +16,7 @@ import ClassComponent from './Components/Classes/ClassComponent';
 import ClassWithPropStateComponent from './Components/Classes/ClassWithPropStateComponent';
 import UseEffectComponent from './Components/UseEffectComponent';
 import ShowHideComponent from './Components/ShowHideComponent';
+import ResponsiveDesignComponent from './Components/ResponsiveDesignComponent';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -77,9 +78,10 @@ function App(): React.JSX.Element {
       {/* <Section title="Use Effect Hook">
         <UseEffectComponent />
       </Section> */}
-      <Section title="Show Hide Component">
+      {/* <Section title="Show Hide Component">
         <ShowHideComponent />
-      </Section>
+      </Section> */}
+      <ResponsiveDesignComponent />
     </>
   );
 }
